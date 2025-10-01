@@ -33,7 +33,7 @@ const NavBar = () => {
                 {
                     links
                 }
-            </ul>
+            </ul> 
 
             {/* <ul className=' flex'>
                 {
