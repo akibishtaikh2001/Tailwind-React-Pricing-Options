@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from './Link';
+import { Menu } from 'lucide-react';
 
 const navLinks = [
     { id: 1, name: "Home", path: "/" },
@@ -11,8 +12,11 @@ const navLinks = [
 
 const NavBar = () => {
     return (
-        <nav>
-
+        <nav className='flex justify-between mx-10'>
+           <span className='flex'>
+             <Menu className=' md:hidden '></Menu>
+            <h3 className='ml-4'>My Navbar</h3>
+           </span>
             <ul className=' flex' >
                 {
                     navLinks.map(route => <Link key={route.id} route={route} ></Link>)
@@ -31,6 +35,8 @@ const NavBar = () => {
                 <li className='mr-10'><a href="/about">About</a></li>
                 <li className='mr-10'><a href="/blog">Blog</a></li>
             </ul> */}
+
+            <button>Sign in</button>
         </nav>
     );
 };
