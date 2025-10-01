@@ -1,0 +1,43 @@
+[
+    {
+        "id": 1,
+        "name": "Basic Plan",
+        "price": "$29/month",
+        "info": "Perfect for beginners who want access to gym equipment.",
+        "features": [
+            "Access to gym equipment",
+            "Locker room access",
+            "Open 6 AM – 10 PM",
+            "1 free fitness assessment",
+            "Access to drinking water station"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Standard Plan",
+        "price": "$49/month",
+        "info": "Great for regular gym-goers with added group classes.",
+        "features": [
+            "All Basic Plan features",
+            "Unlimited group classes (Yoga, Zumba, HIIT)",
+            "2 personal training sessions per month",
+            "Free Wi-Fi access",
+            "Access to sauna (weekdays only)"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Premium Plan",
+        "price": "$79/month",
+        "info": "Best for those who want full benefits and personal guidance.",
+        "features": [
+            "All Standard Plan features",
+            "Unlimited personal training sessions",
+            "Diet & nutrition consultation",
+            "24/7 gym access",
+            "Free protein shakes (5/month)",
+            "Priority booking for special classes",
+            "Guest pass (1 friend per month)"
+        ]
+    }
+]
