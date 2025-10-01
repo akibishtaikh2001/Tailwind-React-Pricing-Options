@@ -29,7 +29,7 @@ const NavBar = () => {
 
                 <h3 className='ml-4'>My Navbar</h3>
             </span>
-            <ul className='md: hidden' >
+            <ul className='md:flex hidden'  >
                 {
                     links
                 }
