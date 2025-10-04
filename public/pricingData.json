@@ -17,6 +17,7 @@
         "id": 2,
         "name": "Standard Plan",
         "price": "$49/month",
+        "popular": true,
         "info": "Great for regular gym-goers with added group classes.",
         "description": "Designed for consistent members who love variety — includes group classes, personal training, and extra comfort options.",
         "features": [
