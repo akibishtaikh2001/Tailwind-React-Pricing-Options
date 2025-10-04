@@ -37,4 +37,4 @@ const MarksChart = ({ marksPromise }) => {
     );
 };
 
-export default MarksChart;
+export default MarksChart; 
